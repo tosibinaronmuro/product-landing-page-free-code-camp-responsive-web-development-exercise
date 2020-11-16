@@ -1,0 +1,114 @@
+ #header-img{
+     margin-right: 10px
+ }
+ #nav{
+     margin-left:20%;
+ }
+ nav{
+    box-shadow: 0 3px 4px   #36454F;
+  }
+ .nav-item{
+     margin: 0 25px
+ }
+ #navv{
+     margin-left: 23%
+ }
+ #video {
+   
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto
+    
+  }
+   
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .yoo{
+      font-size: 500%
+  }
+  .yooo{
+    font-size: 120%
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+    margin: 0;
+     height: 80px
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0 , 0, 0.12), 0 1px 2px rgba(0, 0 , 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+
+}
+.card:hover{
+    box-shadow: 0px 14px 28px rgba(0, 0 , 0, 0.25), 0 10px 10px rgba(0, 0 , 0, 0.22);
+  
+}
+  
+  /* Style the button used to pause/play the video */
+  /* #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } */
+  
+  @media(max-width:640px){
+    .yoo{
+        font-size: 120%;
+        margin-bottom: 0px
+    }
+    .yooo{
+      font-size: 100%
+  }
+  .content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+    .card{
+    margin: 10px;
+      margin-left:20px;
+     box-shadow: 0px 1px 3px rgba(0, 0 , 0, 0.12), 0 1px 2px rgba(0, 0 , 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+}
+  .footer{
+    background-color: black;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+    margin: 0;
+     height: 120px
+}
+  }
