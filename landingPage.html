@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Landing  page</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="nav-bar">
+                <div>
+                        <img class="d-inline-block align-top" id="header-img" alt="" loading="lazy" src="https://github.com/tosibinaronmuro/youtube-clone-with-html-and-css-only/blob/master/ford.png?raw=true.png" alt="logo" height="40px">
+                    </div>
+                <a class="navbar-brand" href="#"> Trucks</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto " id="nav">
+                    <li class="nav-item  ">
+                      <a class="nav-link" href="#ranger">Ranger <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#raptor">F-150</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#super">Super-duty</a>
+                          </li>
+                     
+                  </ul>
+                 <ul class="navbar-nav mr-auto " id="navv">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#raptor">My account</a>
+                    </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#raptor">Help</a>
+                    </li>
+                 </ul>
+                  
+                </div>
+              </nav>
+
+    </header>
+    <div class="roo">
+        <video autoplay muted loop id="video">
+             <source src="https://raw.githubusercontent.com/tosibinaronmuro/youtube-clone-with-html-and-css-only/master/3.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+                <p class="yoo">Ford Trucks</p>
+                <p class="yooo"> Taking You Places</p>
+                 
+                <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+              </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container" id="flex"> 
+         
+             
+            <div class="card" style="width: 18rem;" id="ranger">
+                    <img src="https://media.ed.edmunds-media.com/ford/ranger/2020/oem/2020_ford_ranger_crew-cab-pickup_lariat_fq_oem_5_815.jpg" class="card-img-top" alt="Ford-Ranger">
+                    <div class="card-body">
+                      <h5 class="card-title">Ford Ranger</h5>
+                      <p class="card-text">The 2020 Ford Ranger is a midsize pickup truck available with two cab configurations: extended cab (SuperCab) with a 6-foot bed or a crew cab (SuperCrew) with a 5-foot bed. There are also three trim levels: XL, XLT and Lariat. All Rangers are equipped with a turbocharged 2.3-liter four-cylinder engine (270 hp, 310 lb-ft of torque).<p>
+                      <a href="https://www.ford.com/trucks/ranger/" target="_blank" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+
+        <div class="card " style="width: 18rem;" id="raptor">
+             <img src="https://media.ed.edmunds-media.com/ford/f-150/2019/oem/2019_ford_f-150_extended-cab-pickup_xl_fq_oem_1_815.jpg" class="card-img-top" alt="ford f-150">
+            <div class="card-body">
+            <h5 class="card-title">F-150</h5>
+            <p class="card-text">The worlds best selling Truck and as with most full-size pickups, there's a lot to choose from on the 2020 F-150, starting with six main trim levels: the base XL, XLT, Lariat, King Ranch, Platinum and Limited. Ford also offers the off-road-ready Raptor variant. There are three cab styles — regular, SuperCab (extended) and SuperCrew (crew cab).</p>
+            <a href="https://www.ford.com/trucks/f150/" target="_blank" class="btn btn-primary">Learn More</a>
+        </div>
+     </div>
+
+     <div class="card" style="width: 18rem;" id="super">
+            <img src="https://media.ed.edmunds-media.com/ford/f-250/2020/fd/2020_ford_f-250_f34_fd_116201_815.jpg" class="card-img-top" alt="Ford-superduty">
+            <div class="card-body">
+              <h5 class="card-title">Super-duty</h5>
+              <p class="card-text">The 2020 Ford F-250 Super Duty is a full-size, heavy-duty pickup available in six trim levels: XL, XLT, Lariat, King Ranch, Platinum and Limited. It can be configured as a regular cab, an extended cab (aka SuperCab), or a crew cab with either a 6.8- or an 8.2-foot bed length.</p>
+              <a href="https://www.ford.com/trucks/super-duty/" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container"> 
+    <div class="form-group">
+        <p>Contact us at:</p>
+            <p>www.ford.com</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="form-group"> 
+                  <label for="message">Message</label>  <textarea name="message" placeholder="drop your message here..." id="message" class="form-control"  ></textarea>
+             </div>
+             <div class="form-group"> 
+                    <label for="email">Email:</label> <input type="email"  placeholder="Add email"  name="email" class="form-control" id="email"><br>
+                    <input type="submit" class="btn btn-success" value="Submit " id="submit">
+               </div>
+                
+        </form>
+    </div>
+   
+</div>
+<footer class="footer">
+        <p>&copy;practice project</p>
+        <p> disclaimer: this site is for a practice project and in no way affailated to ford motor company and should not be used as such.</p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
